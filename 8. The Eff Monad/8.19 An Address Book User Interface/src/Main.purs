@@ -111,7 +111,7 @@ addressBook = React.component "AddressBook" component
           [ P.className "row" ]
           [ D.form
             [ P.className "form-horizontal" ] $
-            ([ D.h3'[ D.text "Basic Information" ]
+            [ D.h3'[ D.text "Basic Information" ]
             , formField FirstNameField "First Name" person.firstName updateFirstName
             , formField LastNameField  "Last Name"  person.lastName  updateLastName
             , D.h3' [ D.text "Address" ]
@@ -119,7 +119,7 @@ addressBook = React.component "AddressBook" component
             , formField CityField   "City"   address.city   updateCity
             , formField StateField  "State"  address.state  updateState
             , D.h3' [ D.text "Contact Information" ]
-            ] <> zipWith renderPhoneNumber person.phones (0 .. length person.phones))
+            ] <> zipWith renderPhoneNumber person.phones (0 .. length person.phones)
           ]
         ]
 
