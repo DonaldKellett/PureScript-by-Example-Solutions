@@ -2,6 +2,10 @@
 
 My solutions to the exercises in "PureScript by Example" (https://leanpub.com/purescript/read) from Chapter 7 onwards.  Those for Chapters 1-6 are published as [gists](https://gist.github.com/DonaldKellett) instead.
 
+## Skipped Exercises
+
+Written exercises (i.e. those not involving writing PureScript code to solve problems) such as simple proofs involving properties of PureScript code or analyzing existing PureScript code (e.g. by writing down the types of given subexpressions) have been deliberately omitted from this repo.
+
 ## Incomplete Exercises
 
 *Note to self: I shall return to solve any incomplete exercises listed below once a v0.12.x+ compatible solution is discovered.*
